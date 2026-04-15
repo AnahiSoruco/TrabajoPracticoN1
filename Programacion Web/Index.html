@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismos</title>
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    
+    <nav class="sidebar">
+        <ul class="nav-list">
+        <!-- Inicio -->
+        <li class="nav-item">
+            <a href="index.html" class="nav-link active">
+                <i class="fas fa-home"></i>
+                <span>Inicio</span>
+            </a>
+        </li>
+
+        
+        <li class="nav-item">
+            <a href="destinos.html" class="nav-link">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Destinos</span>
+            </a>
+        </li>
+
+        <!-- Agencias -->
+        <li class="nav-item">
+            <a href="agencias.html" class="nav-link">
+                <i class="fas fa-layer-group"></i>
+                <span>Agencias</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="precios.html" class="nav-link">
+                <i class="fas fa-chart-pie"></i>
+                <span>Precios</span>
+            </a>
+
+            <!-- Contacto -->
+        <li class="nav-item">
+            <a href="Contacto.html" class="nav-link">
+                <i class="fas fa-envelope"></i>
+                <span>Contacto</span>
+            </a>
+        </li>
+    </ul>
+    </nav>
+
+    <section class="video-box">
+        <video autoplay muted loop class="video-fondo">
+            <source src="Videos/Paise.mp4" type="video/mp4">
+        </video>
+
+        <div class="texto-video">
+            <h1>Bienvenido a Jujuy</h1>
+            <p>Descubre lugares increíbles</p>
+        </div>
+    </section>
+
+    <section class="contenedor-destinos">
+    <!-- Tarjeta 1 -->
+        <div class="card-destino">
+            <img src="Imagenes/Purmamarca.jpeg" alt="Purmamarca">
+            <div class="info-card">
+                <h3>Purmamarca</h3>
+                <p>Cerro de los Siete Colores</p>
+            </div>
+        </div>
+
+        <div class="card-destino">
+            <img src="Imagenes/Salinas.jpeg" alt="Salinas Grandes">
+            <div class="info-card">
+                <h3>Salinas Grandes</h3>
+                <p>Un desierto blanco increíble</p>
+            </div>
+        </div>
+
+        <div class="card-destino">
+            <img src="Imagenes/Tilcara.jpeg" alt="Tilcara">
+            <div class="info-card">
+                <h3>Tilcara</h3>
+                <p>Cultura y tradición viva</p>
+            </div>
+        </div>
+    </section>
+    <div class="stat-box">
+        <span class="pulse-number">500+</span>
+        <p>Visitantes Felices</p>
+    </div>
+    <section class="carrusel-escena">
+    <div class="carrusel-cinta">
+      
+        <div class="testimonio-card">
+            <p>"La mejor experiencia en las Salinas Grandes. ¡Increíble!"</p>
+            <span>- Juan Pérez</span>
+        </div>
+
+
+        <div class="testimonio-card">
+            <p>"Purmamarca me robó el corazón. La web es genial."</p>
+            <span>- Ana García</span>
+        </div>
+       
+        <div class="testimonio-card">
+            <p>"Excelente atención de las agencias en Tilcara."</p>
+            <span>- Carlos Ruiz</span>
+        </div>
+    </section>
+    <footer class="footer-site">
+    <div class="footer-container">
+        
+        
+        <div class="footer-section">
+            <h3>Suscríbete</h3>
+            <p>Recibe ofertas de Jujuy en tu mail.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Tu email aquí..." required>
+                <button type="submit">Unirse</button>
+            </form>
+        </div>
+
+        <div class="footer-section">
+            <h3>Síguenos</h3>
+            <ul class="social-3d">
+                <li class="facebook">
+                    <span></span><span></span><span></span><span></span>
+                    <span><i class="fab fa-facebook-f"></i> Facebook</span>
+                </li>
+                <li class="twitter">
+                    <span></span><span></span><span></span><span></span>
+                    <span><i class="fab fa-twitter"></i> Twitter</span>
+                </li>
+                <li class="instagram">
+                    <span></span><span></span><span></span><span></span>
+                    <span><i class="fab fa-instagram"></i> Instagram</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Ubicación</h3>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d643.3934427432424!2d-65.29963730064419!3d-24.186355525050494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f4313922973%3A0x552c0eaeb6432a0!2sPlaza%20Belgrano!5e0!3m2!1ses-419!2sar!4v1776184793505!5m2!1ses-419!2sar" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="Js/Animacion-Index.js"></script>
+</footer>
+</body>
+</html>
